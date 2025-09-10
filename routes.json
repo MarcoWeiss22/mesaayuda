@@ -1,7 +1,21 @@
 {
-    "/ticket": "/tickets",
-    "/ticket/revisar": "/tickets/:id",
-    "/ticket/solucionar": "/tickets/:id",
-    "/ticket/informar": "/tickets/:id",
-    "/ticket/:id": "/tickets/:id"
+    "name": "mesaayuda-json-server",
+    "version": "1.0.0",
+    "description": "Servidor JSON simulado para sistema de mesa de ayuda",
+    "main": "db.json",
+    "scripts": {
+        "start": "json-server --watch db.json --port 3000",
+        "build": "echo 'No build necessary for JSON server'"
+    },
+    "keywords": [
+        "json-server",
+        "rest-api",
+        "mock-server",
+        "mesa-ayuda"
+    ],
+    "author": "German Lombardi",
+    "license": "MIT",
+    "dependencies": {
+        "json-server": "^0.17.4"
+    }
 }
