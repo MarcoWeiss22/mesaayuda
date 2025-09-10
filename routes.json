@@ -1,0 +1,7 @@
+{
+    "/ticket": "/tickets",
+    "/ticket/revisar": "/tickets/:id",
+    "/ticket/solucionar": "/tickets/:id",
+    "/ticket/informar": "/tickets/:id",
+    "/ticket/:id": "/tickets/:id"
+}

@@ -1,0 +1,63 @@
+{
+    "tickets": [
+        {
+            "id": "abc-123",
+            "usuario_id": "def-456",
+            "soporte_id": null,
+            "estado": "INICIAL",
+            "fecha_alta": "2025-09-08",
+            "fecha_revision": null,
+            "fecha_cierre": null,
+            "descripcion": "El sistema no reconoce mi contraseña.",
+            "solucion": null
+        },
+        {
+            "id": "tkt-002",
+            "usuario_id": "user-002",
+            "soporte_id": "soport-001",
+            "estado": "EN_REVISION",
+            "fecha_alta": "2025-09-07",
+            "fecha_revision": "2025-09-09",
+            "fecha_cierre": null,
+            "descripcion": "No puedo imprimir desde la aplicación.",
+            "solucion": null
+        },
+        {
+            "id": "tkt-003",
+            "usuario_id": "user-003",
+            "soporte_id": "soport-002",
+            "estado": "SOLUCIONADO",
+            "fecha_alta": "2025-09-05",
+            "fecha_revision": "2025-09-06",
+            "fecha_cierre": "2025-09-10",
+            "descripcion": "Error en la carga de archivos.",
+            "solucion": "Se actualizó el módulo de carga y se confirmó funcionamiento."
+        }
+    ],
+    "clientes": [
+        {
+            "id": "def-456",
+            "nombre": "Dr. Pedro E. Colla",
+            "contacto": "colla.pedro@uader.edu.ar",
+            "fecha_ultimo_ingreso": "2024-12-10"
+        },
+        {
+            "id": "user-002",
+            "nombre": "Ana Perez",
+            "contacto": "ana.perez@ejemplo.com",
+            "fecha_ultimo_ingreso": "2025-08-25"
+        }
+    ],
+    "soportes": [
+        {
+            "id": "soport-001",
+            "nombre": "Equipo Soporte 1",
+            "contacto": "soporte1@empresa.com"
+        },
+        {
+            "id": "soport-002",
+            "nombre": "Equipo Soporte 2",
+            "contacto": "soporte2@empresa.com"
+        }
+    ]
+}
