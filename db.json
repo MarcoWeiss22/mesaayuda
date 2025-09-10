@@ -1,198 +1,53 @@
 {
-    "usuarios": [
-        {
-            "id": "803a62c8-78c8-4b63-9106-73af215d504b",
-            "nombre": "Dr. Pedro E. Colla",
-            "contacto": "colla.pedro@gmail.com",
-            "estado": "usuario habilitado",
-            "fecha_alta": "01-02-2024",
-            "password": "secret",
-            "fecha_ultimo_ingreso": "6/9/2025",
-            "activo": true,
-            "registrado": true
-        },
-        {
-            "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-            "nombre": "Pablo González",
-            "contacto": "pablo.gonzalez@email.com",
-            "estado": "usuario habilitado",
-            "fecha_alta": "15-03-2024",
-            "password": "secret",
-            "fecha_ultimo_ingreso": "7/9/2025",
-            "activo": true,
-            "registrado": true
-        },
-        {
-            "id": "b2c3d4e5-f6g7-8901-hijk-lm2345678901",
-            "nombre": "Carlos Fernandez",
-            "contacto": "carlos.fernandez@email.com",
-            "estado": "registración pendiente",
-            "fecha_alta": "10/9/2025",
-            "password": "secret",
-            "fecha_ultimo_ingreso": null,
-            "activo": false,
-            "registrado": false
-        },
-        {
-            "id": "c3d4e5f6-g7h8-9012-ijkl-mn3456789012",
-            "nombre": "Juan Martínez",
-            "contacto": "juan.martinez@email.com",
-            "estado": "registración completa",
-            "fecha_alta": "12/9/2025",
-            "password": "secret",
-            "fecha_ultimo_ingreso": "12/9/2025",
-            "activo": true,
-            "registrado": true
-        },
-        {
-            "id": "d4e5f6g7-h8i9-0123-jklm-no4567890123",
-            "nombre": "Hugo Rodriguez",
-            "contacto": "hugo.rodriguez@email.com",
-            "estado": "usuario inhabilitado",
-            "fecha_alta": "01-08-2024",
-            "password": "secret",
-            "fecha_ultimo_ingreso": "05/9/2025",
-            "activo": false,
-            "registrado": true
-        },
-        {
-            "id": "e5f6g7h8-i9j0-1234-klmn-op5678901234",
-            "nombre": "Laura Martinez",
-            "contacto": "laura.martinez@email.com",
-            "estado": "usuario baja (logica)",
-            "fecha_alta": "15-06-2024",
-            "password": "secret",
-            "fecha_ultimo_ingreso": "20/8/2025",
-            "activo": false,
-            "registrado": true
-        },
-        {
-            "id": "f6g7h8i9-j0k1-2345-lmno-pq6789012345",
-            "nombre": "Roberto sanchez",
-            "contacto": "roberto.sanchez@email.com",
-            "estado": "registración pendiente",
-            "fecha_alta": "14/9/2025",
-            "password": "secret",
-            "fecha_ultimo_ingreso": null,
-            "activo": false,
-            "registrado": false
-        },
-        {
-            "id": "g7h8i9j0-k1l2-3456-mnop-qr7890123456",
-            "nombre": "Martin Ramírez",
-            "contacto": "martin.ramirez@email.com",
-            "estado": "usuario inhabilitado",
-            "fecha_alta": "20-07-2024",
-            "password": "secret",
-            "fecha_ultimo_ingreso": "10/9/2025",
-            "activo": false,
-            "registrado": true
-        }
-    ],
-    "tickets": [
-        {
-            "id": 12345,
-            "usuario_id": "803a62c8-78c8-4b63-9106-73af215d504b",
-            "descripcion": "Error al hacer un pedido",
-            "estado": "inicial",
-            "fecha_alta": "10/9/2025 14:30:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 54321,
-            "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-            "descripcion": "Problema con facturación",
-            "estado": "asignado (primer nivel)",
-            "fecha_alta": "11/9/2025 10:15:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 23456,
-            "usuario_id": "c3d4e5f6-g7h8-9012-ijkl-mn3456789012",
-            "descripcion": "No puedo acceder a mi cuenta",
-            "estado": "asignado (segundo nivel)",
-            "fecha_alta": "12/9/2025 09:20:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 34567,
-            "usuario_id": "803a62c8-78c8-4b63-9106-73af215d504b",
-            "descripcion": "Producto defectuoso recibido",
-            "estado": "en revisión",
-            "fecha_alta": "13/9/2025 16:45:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 45678,
-            "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-            "descripcion": "Consulta sobre garantía",
-            "estado": "Solucionado",
-            "fecha_alta": "08/9/2025 11:30:00",
-            "fecha_cierre": "10/9/2025 15:20:00"
-        },
-        {
-            "id": 56789,
-            "usuario_id": "d4e5f6g7-h8i9-0123-jklm-no4567890123",
-            "descripcion": "Error en aplicación móvil",
-            "estado": "Cerrado",
-            "fecha_alta": "05/9/2025 08:15:00",
-            "fecha_cierre": "07/9/2025 17:40:00"
-        },
-        {
-            "id": 67891,
-            "usuario_id": "e5f6g7h8-i9j0-1234-klmn-op5678901234",
-            "descripcion": "Problema con actualización de software",
-            "estado": "reabierto",
-            "fecha_alta": "03/9/2025 14:20:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 78901,
-            "usuario_id": "803a62c8-78c8-4b63-9106-73af215d504b",
-            "descripcion": "Solicitud de característica nueva",
-            "estado": "inicial",
-            "fecha_alta": "14/9/2025 10:00:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 89012,
-            "usuario_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-            "descripcion": "Problema de conectividad",
-            "estado": "asignado (primer nivel)",
-            "fecha_alta": "13/9/2025 13:45:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 90123,
-            "usuario_id": "c3d4e5f6-g7h8-9012-ijkl-mn3456789012",
-            "descripcion": "Error en procesamiento de pago",
-            "estado": "asignado (segundo nivel)",
-            "fecha_alta": "12/9/2025 16:30:00",
-            "fecha_cierre": null
-        },
-        {
-            "id": 10112,
-            "usuario_id": "g7h8i9j0-k1l2-3456-mnop-qr7890123456",
-            "descripcion": "Problema con envío de producto",
-            "estado": "Solucionado",
-            "fecha_alta": "05/9/2025 09:45:00",
-            "fecha_cierre": "07/9/2025 12:30:00"
-        },
-        {
-            "id": 11121,
-            "usuario_id": "f6g7h8i9-j0k1-2345-lmno-pq6789012345",
-            "descripcion": "Consulta sobre métodos de pago",
-            "estado": "Cerrado",
-            "fecha_alta": "08/9/2025 14:20:00",
-            "fecha_cierre": "09/9/2025 16:45:00"
-        },
-        {
-            "id": 12131,
-            "usuario_id": "d4e5f6g7-h8i9-0123-jklm-no4567890123",
-            "descripcion": "Error en descarga de contenido digital",
-            "estado": "inicial",
-            "fecha_alta": "15/9/2025 11:10:00",
-            "fecha_cierre": null
-        }
-    ]
+  "clientes": [
+    {
+      "id": "803a62c8-78c8-4b63-9106-73af216d504b",
+      "password": "secret",
+      "nombre": "Dr. Pedro E. Colla",
+      "contacto": "colla.pedro@uader.edu.ar",
+      "fecha_ultimo_ingreso": "2024-12-10"
+    },
+    {
+      "id": "user-002",
+      "password": "clave123",
+      "nombre": "Ana Perez",
+      "contacto": "ana.perez@ejemplo.com",
+      "fecha_ultimo_ingreso": "2025-09-01"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt-001",
+      "usuario_id": "803a62c8-78c8-4b63-9106-73af216d504b",
+      "soporte_id": null,
+      "estado": "INICIAL",
+      "fecha_alta": "2025-09-08",
+      "fecha_revision": null,
+      "fecha_cierre": null,
+      "descripcion": "El sistema no reconoce mi contraseña.",
+      "solucion": null
+    },
+    {
+      "id": "tkt-002",
+      "usuario_id": "user-002",
+      "soporte_id": "soport-001",
+      "estado": "EN_REVISION",
+      "fecha_alta": "2025-09-07",
+      "fecha_revision": "2025-09-09",
+      "fecha_cierre": null,
+      "descripcion": "No puedo imprimir desde la aplicación.",
+      "solucion": null
+    },
+    {
+      "id": "tkt-003",
+      "usuario_id": "user-002",
+      "soporte_id": "soport-002",
+      "estado": "SOLUCIONADO",
+      "fecha_alta": "2025-09-05",
+      "fecha_revision": "2025-09-06",
+      "fecha_cierre": "2025-09-10",
+      "descripcion": "Error en la carga de archivos.",
+      "solucion": "Se actualizó el módulo de carga y se confirmó funcionamiento."
+    }
+  ]
 }
