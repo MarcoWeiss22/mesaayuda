@@ -37,6 +37,17 @@
       "fecha_cierre": null,
       "descripcion": "No puedo imprimir desde la aplicación.",
       "solucion": null
+    },
+    {
+      "id": "tkt-003",
+      "usuario_id": "user-002",
+      "soporte_id": "soport-002",
+      "estado": "SOLUCIONADO",
+      "fecha_alta": "2025-09-05",
+      "fecha_revision": "2025-09-06",
+      "fecha_cierre": "2025-09-10",
+      "descripcion": "Error en la carga de archivos.",
+      "solucion": "Se actualizó el módulo de carga y se confirmó funcionamiento."
     }
   ]
 }
