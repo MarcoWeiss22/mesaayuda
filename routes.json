@@ -1,20 +1,12 @@
 {
   "name": "mesa-ayuda-simulada",
   "version": "1.0.0",
-  "description": "Servidor simulado de Mesa de Ayuda usando json-server",
+  "description": "Servidor Express que simula Mesa de Ayuda",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 8080"
+    "start": "node index.js"
   },
-  "keywords": [
-    "mesa-ayuda",
-    "json-server",
-    "nodejs",
-    "api-rest"
-  ],
-  "author": "Estudiante IS1",
-  "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.4"
+    "express": "^4.19.2"
   }
 }
